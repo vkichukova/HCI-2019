@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<head>
+    <title>изпити</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/calendar.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../fonts/iconic/css/material-design-iconic-font.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <sidebar>
+            <nav class="menu">
+                <a class="menu__item" href="message.html">
+                    <span class="menu__text">Съобщения</span>
+                </a>
+                <a class="menu__item menu__item--active" href="#">
+                    <span class="menu__text">Календар на изпити</span>
+                </a>
+                <a class="menu__item" href="booking.html">
+                    <span class="menu__text">Запазване на зала</span>
+                </a>
+                <a class="menu__item" href="booking_once.html">
+                    <span class="menu__text">Еднократно запазване на зала</span>
+                </a>
+                <a class="menu__item" href="search.html">
+                    <span class="menu__text">Преглед на зали</span>
+                </a>
+                <a class="menu__item" href="../index.html">
+                    <span class="menu__text">Изход</span>
+                </a>
+            </nav>
+        </sidebar>
+        <main class="background">
+            <div class="toolbar">
+                <div class="toggle">
+                    <a class="toggle__option toggle__option--selected" href="#">Седмичен</a>
+                    <a class="toggle__option" href="monthly.html">Месечен</a>
+                </div>
+                <div class="search_by_name">
+                    <textarea placeholder="Търси по име на преподавател.."></textarea>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Избери специалност ⮟</button>
+                    <div class="dropdown-content">
+                        <a href="#">Софтуерно инженерство</a>
+                        <a href="#">Компютърни науки</a>
+                        <a href="#">Информационни системи</a>
+                        <a href="#">Приложна математика</a>
+                        <a href="#">Статистика</a>
+                        <a href="#">Информатика</a>
+                    </div>
+                </div>
+                <div class="current-month">5 - 11 Май </div>
+            </div>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Пон</th>
+                    <th>Вт</th>
+                    <th>Ср</th>
+                    <th>Чет</th>
+                    <th>Пет</th>
+                    <th>Сб</th>
+                    <th>Нед</th>
+                </tr>
+                <tr>
+                    <td>08:00</td>
+                    <td class="event event-approved">АСИ, 120 ФМИ, Ирена Павлова, упр. 1 група</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="event event-approved">АСИ, 120 ФМИ, Ирена Павлова, упр. 2 група</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>09:00</td>
+                    <td class="event event-approved"></td>
+                    <td></td>
+                    <td class="event event-approved"> WEB, 101 ФМИ, Милен Петров, лекция</td>
+                    <td></td>
+                    <td class="event event-approved"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10:00</td>
+                    <td class="event event-approved"> АСИ, 120 ФМИ, Ирена Павлова, упр. 3 група</td>
+                    <td></td>
+                    <td class="event event-approved"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>11:00</td>
+                    <td class="event event-approved"></td>
+                    <td class="event event-approved"> ПЧМИ, 019 ФМИ, Тодор Георгиев, упр. 5 група</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12:00</td>
+                    <td class="event event-approved"> АСИ, 120 ФМИ, Ирена Павлова, упр. 4 група</td>
+                    <td class="event event-approved"></td>
+                    <td></td>
+                    <td class="event event-approved"> АСИ, 200 ФМИ, Олга Георгиева, лекция</td>
+                    <td class="event event-approved"> ПЧМИ, 325 ФМИ, Красен Стефанов, лекция</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>13:00</td>
+                    <td class="event event-approved"></td>
+                    <td></td>
+                    <td class="event event-approved">АСИ, 120 ФМИ, Ирена Павлова, упр. 5 група</td>
+                    <td class="event event-approved"></td>
+                    <td class="event event-approved"></tdclass></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>14:00</td>
+                    <td></td>
+                    <td></td>
+                    <td class="event event-approved"></td>
+                    <td></td>
+                    <td class="event event-approved"> РСА, 325 ФМИ, Васил Цунижев, лекция</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>15:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="event event-approved"></td>
+                    <td class="event event-approved"> РСА, 107 ФМИ, Христо Христов, упр. 1,3,4 група</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>16:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="event event-approved"></td>
+                    <td class="event event-approved"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>17:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="event event-approved"> РСА, 107 ФМИ, Христо Христов, упр. 2,5 група</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>18:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="event event-approved"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>19:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>20:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>21:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>22:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </main>
+    </div>
+</body>
+
+</html>

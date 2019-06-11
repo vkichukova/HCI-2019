@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Календар</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/calendar.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <sidebar>
+            <nav class="menu">
+                <a class="menu__item" href="message.html">
+                    <span class="menu__text">Съобщения</span>
+                </a>
+                <a class="menu__item menu__item--active" href="#">
+                    <span class="menu__text">Календар</span>
+                </a>
+                <a class="menu__item" href="booking.html">
+                    <span class="menu__text">Запазване на зала</span>
+                </a>
+                <a class="menu__item" href="booking_once.html">
+                    <span class="menu__text">Еднократно запазване на зала</span>
+                </a>
+                <a class="menu__item" href="weekly.html">
+                    <span class="menu__text">Преглед на зали</span>
+                </a>
+                <a class="menu__item" href="../index.html">
+                    <span class="menu__text">Изход</span>
+                </a>
+            </nav>
+        </sidebar>
+        <main class="background">
+            <div class="toolbar">
+                <div class="toggle">
+                    <a class="toggle__option" href="calendar_weekly.html">Седмичен</a>
+                    <a class="toggle__option toggle__option--selected" href="#">Месечен</a>
+                </div>
+                <div class="current-month">Юни 2019</div>
+            </div>
+            <div class="calendar">
+                <div class="calendar__header">
+                    <div>Пон</div>
+                    <div>Вто</div>
+                    <div>Ср</div>
+                    <div>Чет</div>
+                    <div>Пет</div>
+                    <div>Сб</div>
+                    <div>Нед</div>
+                </div>
+                <div class="calendar__week">
+                    <div class="calendar__day"></div>
+                    <div class="calendar__day"></div>
+                    <div class="calendar__day"></div>
+                    <div class="calendar__day"></div>
+                    <div class="calendar__day"></div>
+                    <div class="calendar__day">1</div>
+                    <div class="calendar__day">2</div>
+                </div>
+                <div class="calendar__week">
+                    <div class="calendar__day">3</div>
+                    <div class="calendar__day">4</div>
+                    <div class="calendar__day">5</div>
+                    <div class="calendar__day">6</div>
+                    <div class="calendar__day">7</div>
+                    <div class="calendar__day">8</div>
+                    <div class="calendar__day">9</div>
+                </div>
+                <div class="calendar__week">
+                    <div class="calendar__day">10</div>
+                    <div class="calendar__day event-uncertain">
+                        <div class="event">11</div>
+                        <div class="event">Качествен код - 18:00 01 ФМИ, Ф. Янков</div>
+                    </div>
+                    <div class="calendar__day">12</div>
+                    <div class="calendar__day">13</div>
+                    <div class="calendar__day">14</div>
+                    <div class="calendar__day">15</div>
+                    <div class="calendar__day">16</div>
+                </div>
+                <div class="calendar__week">
+                    <div class="calendar__day">17</div>
+                    <div class="calendar__day">18</div>
+                    <div class="calendar__day">19</div>
+                    <div class="calendar__day event-approved">
+                        <div class="event">20</div>
+                        <div class="event">РСА - 09:30 325 ФМИ, доц. В. Цунижев</div>
+                    </div>
+                    <div class="calendar__day">21</div>
+                    <div class="calendar__day">22</div>
+                    <div class="calendar__day">23</div>
+                </div>
+                <div class="calendar__week">
+                    <div class="calendar__day">24</div>
+                    <div class="calendar__day">25</div>
+                    <div class="calendar__day event-approved">
+                        <div class="event">26</div>
+                        <div class="event">АСИ - 09:00 200 ФМИ, доц. О. Георгиева</div>
+                    </div>
+                    <div class="calendar__day event-approved">
+                        <div class="event">27</div>
+                        <div class="event">ПЧМИ - 10:00 120 ФМИ, проф. К. Стефанов</div>
+                    </div>
+                    <div class="calendar__day">28</div>
+                    <div class="calendar__day">29</div>
+                    <div class="calendar__day">30</div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

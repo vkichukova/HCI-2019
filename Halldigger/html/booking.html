@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Запазване на зала</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/util.css">
+    <link rel="stylesheet" type="text/css" href="../css/popup_message.css">
+    <link rel="stylesheet" type="text/css" href="../css/calendar.css">
+    <link rel="stylesheet" type="text/css" href="../css/booking.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <sidebar>
+            <nav class="menu">
+                <a class="menu__item " href="message.html">
+                    <span class="menu__text">Съобщения</span>
+                </a>
+                <a class="menu__item" href="calendar_weekly.html">
+                        <span class="menu__text">Календар</span>
+                </a>
+                <a class="menu__item menu__item--active" href="#">
+                    <span class="menu__text">Запазване на зала</span>
+                </a>
+                <a class="menu__item" href="booking_once.html">
+                    <span class="menu__text">Еднократно запазване на зала</span>
+                </a>
+                <a class="menu__item" href="weekly.html">
+                    <span class="menu__text">Преглед на зали</span>
+                </a>
+                <a class="menu__item" href="../index.html">
+                    <span class="menu__text">Изход</span>
+                </a>
+            </nav>
+        </sidebar>
+        <main class="background">
+            <form class="booking__hall">
+                <div class="booking__title">Запазване на зала</div>
+                <div class="booking__option booking__container">Изберете ден:</div>
+                <div class="day__checkbox">
+                    <input type="checkbox" name="day1" value="mo"> Понеделник<br>
+                    <input type="checkbox" name="day2" value="tu" checked> Вторник<br>
+                    <input type="checkbox" name="day3" value="we"> Сряда<br>
+                    <input type="checkbox" name="day4" value="th"> Четвъртък<br>
+                    <input type="checkbox" name="day5" value="fr" checked> Петък<br>
+                    <input type="checkbox" name="day6" value="sa"> Събота<br>
+                    <input type="checkbox" name="day7" value="su"> Неделя<br>
+                </div>
+                <div class="booking__option booking__container">Време:</div>
+                <textarea class="booking__container input__border"
+                    placeholder="Въведете предпочитано време.."></textarea>
+                <div class="booking__option booking__container">Название на курс:</div>
+                <textarea class="booking__container input__border"></textarea>
+                <div class="booking__option booking__container">Брой студенти:</div>
+                <input class="students__number" type="number" id="students" name="students" min="1" max="250">
+                <div class="container-login-form-btn">
+                    <button id="button" type="button" class="login-form-btn">
+                        Запази
+                    </button>
+                </div>
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p class="modal-text">Успешно изпратихте заявка за запазване на зала.</p>
+                    </div>
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+<script src="../js/popup_message.js"></script>
+</html>

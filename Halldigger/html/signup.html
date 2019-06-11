@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Регистрация</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/util.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../css/signup.css">
+    <link rel="stylesheet" type="text/css" href="../css/popup_message.css">
+</head>
+
+<body class="background">
+
+
+	<div class="container-login">
+		<div class="wrap-login p-l-55 p-r-55 p-t-80 p-b-30">
+			<form class="login-form validate-form">
+				<span class="login-form-title p-b-37">
+					Регистрация
+				</span>
+
+				<div class="wrap-input validate-input m-b-20" data-validate="Enter username">
+					<input class="input" type="text" name="username" placeholder="потребителско име" required>
+					<span class="focus-input"></span>
+				</div>
+
+				<div class="wrap-input validate-input m-b-20" data-validate="Enter email">
+					<input class="input" type="email" name="username" placeholder="email" required>
+					<span class="focus-input"></span>
+				</div>
+
+				<div class="wrap-input validate-input m-b-25" data-validate="Enter password">
+					<input class="input" type="password" name="pass" placeholder="парола" required>
+					<span class="focus-input"></span>
+				</div>
+
+				<div class="container-login-form-btn">
+					<button  id="button" type="button" class="login-form-btn">
+						Регистрирай се
+					</button>
+				</div>
+				<div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p class="modal-text">Успешно изпратихте заявка за регистрация в системата.</p>
+                    </div>
+                </div>
+				<div class="input">
+					<input class="checkbox" type="radio" name="user"> Преподавател<br>
+					<input class="checkbox" type="radio" name="user"> Студент<br>
+				</div>
+				<div class="text-center">
+					<br>
+					<a href="login.html" class="txt2 hov1">
+						Влез в системата
+					</a>
+				</div>
+			</form>
+		</div>
+	</div>
+
+</body>
+<script src="../js/popup_message.js"></script>
+</html>
